@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+input {
+    width: 268px;
+    padding: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    background-color: #FAFAFA;
+}
+
+input:focus {
+    outline: 1px rgb(219, 219, 219);
+    outline-style: solid;
+}
+
+section {
+    text-align: center;
+    border: 1px solid rgba(219, 219, 219, 0.527);
+    max-width: 350px;
+    margin: auto;
+    background-color: #ffff;
+}
+
+button {
+    width: 268px;
+    margin-left: -10px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    padding: 8px 0px 8px 0px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #4DB5F9;
+}
+
+.divButton {
+    width: 100%;   
+}
+.inputs {
+    width: 100%;
+    margin-top: 37px;
+    margin-left: -10px;   
+}
+
+.inputAux {
+    margin-top: 4px;
+    padding-top: 2px;
+    margin-bottom: 15px;
+}
+.header {
+    margin-top: -5px;
+}
+
+.container {
+    margin-top: 45px !important;
+    padding: 50px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+.inputMensagem {
+    position: absolute;
+    font-size: 12px;
+    font-weight: normal;
+    pointer-events: none;
+    padding: 9px;
+    padding-top: 10px;
+    color: rgb(142, 142, 142);
+}
+
+.linha {
+    width: 100px;
+    height: 1px;
+    border-style: solid;
+    border: 1px;
+    background-color: #DBDBDB;
+    margin-top: 25px;
+}
+.detalhes {
+    display: flex;
+    width: 268px;
+    margin-left: -6px;
+    margin-bottom: 30px;
+}
+.texto {
+    font-size: 13px;
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #928E8E;
+    font-weight: 700;
+}
+
+.opcoesFacebook {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+.iconeFace {
+    width: 16px;
+    height: 16px;
+}
+.face {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    color: #385185;
+}
+
+.esqueceuSenha {
+    font-size: 12px;
+    text-decoration: none;
+    color: #385185;
+}
+.cadastre-Se {
+    margin: 24px;
+    margin-left: 24px;
+}
+.cadastre-Se > p, a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.cadastre-Se > p > a {
+    font-weight: 700;
+    color: #009DF8;
+}
+
+.imagens {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imagens > p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #262626;
+}
+
+img:nth-child(2) {
+    width: 136px;
+    height: 40px;
+    margin-right: 3px;
+}
+img:nth-child(3) {
+    width: 134;
+    height: 40px;
+}
+
+footer > ul {
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #928E8E;
+}
